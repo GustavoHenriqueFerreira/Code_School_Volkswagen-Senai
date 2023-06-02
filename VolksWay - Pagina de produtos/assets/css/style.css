@@ -74,7 +74,6 @@ h1 {
     color: var(--cor-terciaria);
 }
 
-<<<<<<< main:assets/css/style.css
 
 /* Header */
 header {
@@ -94,8 +93,6 @@ header nav {
 }
 
 
-=======
->>>>>>> local:VolksWay - Produtos e servicos/assets/css/style.css
 /* Banner */
 .banner {
     background-image: url("../img/background_banner.png");
@@ -103,7 +100,6 @@ header nav {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
-<<<<<<< main:assets/css/style.css
     height: 62.5vh;
 }
 
@@ -111,12 +107,9 @@ header nav {
     width: 37vw;
     height: 44vh;
     justify-content: space-around;
-=======
-    height: 64.5vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
->>>>>>> local:VolksWay - Produtos e servicos/assets/css/style.css
 }
 
 .banner h2 {
