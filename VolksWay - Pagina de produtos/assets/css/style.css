@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-branco: #FFFFFF;
+    --cor-primaria: #12264B;
+    --cor-secundaria: #FFD100;
+    --cor-terciaria: #00B0FF;
+    --cor-quartenaria: #195F8C;
+    --cor-cinza-escuro: #252936;
+    --cor-preto: #000000;
+
+    --fonte-primaria: 'Poppins', sans-serif;
+    --fonte-tamanho: 18px;
+}
+
+.container {
+    width: 90%;
+    height: 100%;
+    max-width: 1920px;
+    margin: auto;
+}
+
+.container_84 {
+    width: 84%;
+    height: 100%;
+    max-width: 1920px;
+    margin: auto;
+}
+
+h1 {
+    width: 1em;
+    position: absolute;
+    left: -10000px;
+    overflow: hidden;
+}
+
+.direction_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.direction_row {
+    flex-direction: row;
+}
+
+.justify_center {
+    display: flex;
+    justify-content: center;
+}
+
+.align_center {
+    display: flex;
+    align-items: center;
+}
+
+.space_between {
+    justify-content: space-between;
+}
+
+.space_evenly {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.space_around {
+    justify-content: space-around;
+}
+
+.azul_claro {
+    color: var(--cor-terciaria);
+}
+
+<<<<<<< main:assets/css/style.css
+
+/* Header */
+header {
+    background-color: var(--cor-primaria);
+    border-bottom: 3px solid var(--cor-secundaria);
+}
+
+header a {
+    font-family: var(--fonte-primaria);
+    text-decoration: none;
+    font-size: 24px;
+    color: var(--cor-branco);
+}
+
+header nav {
+    width: 47vw;
+}
+
+
+=======
+>>>>>>> local:VolksWay - Produtos e servicos/assets/css/style.css
+/* Banner */
+.banner {
+    background-image: url("../img/background_banner.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+<<<<<<< main:assets/css/style.css
+    height: 62.5vh;
+}
+
+.banner_content {
+    width: 37vw;
+    height: 44vh;
+    justify-content: space-around;
+=======
+    height: 64.5vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+>>>>>>> local:VolksWay - Produtos e servicos/assets/css/style.css
+}
+
+.banner h2 {
+    font-family: var(--fonte-primaria);
+    font-weight: 700;
+    font-size: 64px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: var(--cor-branco);
+    max-width: 40vw;
+}
+
+.banner p {
+    font-family: var(--fonte-primaria);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: var(--cor-branco);
+    max-width: 31vw;
+}
+
+.banner a {
+    width: 235px;
+    height: 55px;
+    background: var(--cor-secundaria);
+    border-radius: 30px;
+    color: var(--cor-primaria);
+    font-family: var(--fonte-primaria);
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 20px;
+    height: 20.81px;
+    background-color: var(--cor-branco);
+    margin-left: 0.7vw;
+    margin-right: 0.7vw;
+}
+
+.ativo {
+    background-color: var(--cor-terciaria);
+}
+
+/* Ofertas especiais */
+.align_cards {
+    width: 100%;
+    margin: 3% 0% 5% 0%;
+}
+
+.cards {
+    width: 85%;
+}
+
+.offer_card {
+    background-color: var(--cor-quartenaria);
+    width: 435.95px;
+    height: 193px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 5%;
+}
+
+.offer_card h3 {
+    font-family: var(--fonte-primaria);
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--cor-branco);
+}
+
+.offer_card p {
+    font-family: var(--fonte-primaria);
+    font-size: 16px;
+    color: var(--cor-branco);
+
+}
+
+.offer_price {
+    font-family: var(--fonte-primaria);
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--cor-primaria);
+}
+
+.offer_content {
+    font-family: var(--fonte-primaria);
+    font-size: 16px;
+    color: var(--cor-preto);
+    margin-top: -25%;
+    height: 35vh;
+}
+
+.offer_button {
+    width: 320.62px;
+    height: 57px;
+    background-color: var(--cor-terciaria);
+    border-radius: 30px;
+    font-family: var(--fonte-primaria);
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--cor-branco);
+    text-decoration: none;
+}
+
+.offer_until {
+    font-family: var(--cor-primaria);
+    font-size: 14px;
+    line-height: 21px;
+    color: #4E4040;
+}
+
+/* Promoções */
+.promocoes_background {
+    width: 100vw;
+    height: 65vh;
+    background: var(--cor-primaria);
+}
+
+
+.promocoes_background h2 {
+    font-family: var(--fonte-primaria);
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--cor-secundaria);
+}
+
+.promocoes_subtitle {
+    max-width: 819px;
+    font-family: var(--fonte-primaria);
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #F8F8F8;
+}
+
+.promocoes_price_card {
+    width: 138.9px;
+    height: 38px;
+    background: #ECEFF1;
+    border-radius: 20px;
+}
+
+.promocoes_price_card span {
+    font-family: var(--fonte-primaria);
+    font-size: 20px;
+    color: var(--cor-preto);
+}
+
+.promocoes_card h3 {
+    font-family: var(--fonte-primaria);
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--cor-branco);
+}
+
+.promocoes_content_card p {
+    font-family: var(--fonte-primaria);
+    font-size: 16px;
+    color: var(--cor-branco);
+}
+
+.promocoes_news {
+    font-family: var(--fonte-primaria);
+    font-size: 24px;
+    color: var(--cor-secundaria);
+}
+
+.promocoes_img {
+    width: 17.3vw;
+}
+
+.promocoes_content_card {
+    background-color: var(--cor-cinza-escuro);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+    height: 154px;
+    margin-top: -2vh;
+    width: 17.3vw;
+}
+
+.container_promocoes {
+    margin-left: 5%;
+}
+
+/* Noticias recentes */
+h2 {
+    font-family: var(--fonte-primaria);
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--cor-primaria);
+    margin-top: 5%;
+}
+
+.noticies_card {
+    margin-top: 2%;
+}
+
+.noticies_content_card {
+    width: 28vw;
+    height: 35vh;
+    background: var(--cor-branco);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(2px);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.noticies_content_card h3 {
+    font-family: var(--fonte-primaria);
+    font-size: var(--fonte-tamanho);
+    font-weight: bold;
+    color: var(--cor-primaria);
+}
+
+.noticies_content_card p {
+    font-family: var(--fonte-primaria);
+    font-size: 16px;
+    color: var(--cor-preto);
+    max-width: 99%;
+    margin-bottom: 4%;
+}
+
+.noticies_content_card a {
+    width: 99%;
+    margin-bottom: 9%;
+    height: 57px;
+    background-color: var(--cor-secundaria);
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    font-family: var(--fonte-primaria);
+    font-size: 20px;
+    color: var(--cor-primaria);
+    text-decoration: none;
+}
+
+.noticies_card img {
+    width: 28vw;
+    height: 19vh;
+}
+
+.margin_bottom {
+    margin-bottom: 5%;
+}
+
+
+/* Footer */
+footer {
+    background-color: var(--cor-primaria);
+    width: 100vw;
+    height: 291px;
+}
+
+.footer_text {
+    font-family: var(--fonte-primaria);
+    font-size: 18px;
+    line-height: 45px;
+    color: var(--cor-branco);
+    text-decoration: none;
+}
+
+footer span {
+    font-family: var(--fonte-primaria);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--cor-branco);
+}
+
+.img_footer {
+    margin-left: -22%;
+}
+
+.imgs_social_medias {
+    margin-bottom: 7%;
+    width: 12%;
+    display: flex;
+}
