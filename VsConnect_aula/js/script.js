@@ -4,7 +4,7 @@ function btnMenu() {
 
     if(window.getComputedStyle(menu).display == "none"){
         //Mostra o menu
-        menu.style.display = "initial";
+        menu.style.display = "flex";
         /* menu_barras.setAttribute("aria-label", "Fechar um menu");
         menu_barras.setAttribute("aria-expanded", "true"); */
         menu_barras.ariaLabel = "Fechar um menu";
