@@ -58,6 +58,7 @@ h1 {
 }
 
 .space_between {
+    display: flex;
     justify-content: space-between;
 }
 
@@ -133,8 +134,8 @@ header nav {
 }
 
 .banner a {
-    width: 235px;
-    height: 55px;
+    width: 12.5vw;
+    height: 5.5vh;
     background: var(--cor-secundaria);
     border-radius: 30px;
     color: var(--cor-primaria);
@@ -159,20 +160,25 @@ header nav {
 
 /* Ofertas especiais */
 .align_cards {
-    width: 100%;
-    margin: 3% 0% 5% 0%;
+    width: 110%;
+    margin: 3% 0% 5% 15%;
 }
 
 .cards {
-    width: 85%;
+    width: 100%;
 }
 
 .offer_card {
     background-color: var(--cor-quartenaria);
-    width: 435.95px;
-    height: 193px;
+    width: 24vw;
+    height: 19vh;
     border-radius: 10px 10px 0px 0px;
     padding: 5%;
+}
+
+.offer_content img {
+    width: 14.5vw;
+    height: 19.5vh;
 }
 
 .offer_card h3 {
@@ -248,6 +254,8 @@ header nav {
 }
 
 .promocoes_price_card {
+    position: relative;
+    bottom: 10%;
     width: 138.9px;
     height: 38px;
     background: #ECEFF1;
@@ -295,6 +303,11 @@ header nav {
 
 .container_promocoes {
     margin-left: 5%;
+}
+
+.align_cards_promocoes {
+    width: 110%;
+    margin: 3% 0% 5% 20%;
 }
 
 /* Noticias recentes */
@@ -386,6 +399,55 @@ footer span {
 
 .imgs_social_medias {
     margin-bottom: 7%;
-    width: 12%;
+    width: 14vw;
     display: flex;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 1700px) {
+    .promocoes_card h3{
+        font-size: 22px;
+    }
+
+    .promocoes_news {
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .promocoes_card h3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .promocoes_card h3 {
+        font-size: 18px;
+    }
+
+    .promocoes_news {
+        font-size: 19px;
+    }
+}
+
+
+@media screen and (max-width: 1300px) {
+    .promocoes_card h3 {
+        font-size: 18px;
+    }
+
+    .promocoes_news {
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .promocoes_card h3 {
+        font-size: 18px;
+    }
+
+    .promocoes_news {
+        font-size: 19px;
+    }
 }
