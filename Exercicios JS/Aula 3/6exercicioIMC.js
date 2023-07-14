@@ -1,4 +1,5 @@
 let prompt = require("prompt-sync")();
+
 let peso = parseFloat(prompt("Digite o seu peso: "));
 let altura = parseFloat(prompt("Digite a sua altura: "));
 
