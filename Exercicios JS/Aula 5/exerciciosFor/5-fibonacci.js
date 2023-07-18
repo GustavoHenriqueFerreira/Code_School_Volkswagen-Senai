@@ -23,7 +23,8 @@ function fibonacci(numerosListados) {
         console.log(fibonacci[i]);
     }
 }
-fibonacci(10);
+let limiteFibonacci = parseInt(prompt("Digite o limite de números listados da seuqência de Fibonacci: "));
+fibonacci(limiteFibonacci);
 
 /* Fibonacci com while */
 function fibonacciWhile(numerosListados) {
@@ -39,5 +40,5 @@ function fibonacciWhile(numerosListados) {
         i++;
     }
 };
-
-fibonacciWhile(10);
+let limiteFibonacciWhile = parseInt(prompt("Digite o limite de números listados da seuqência de Fibonacci: "));
+fibonacciWhile(limiteFibonacciWhile);
