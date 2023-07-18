@@ -1,3 +1,6 @@
+/* Faça um programa receba dois valores e imprima qual é o maior
+número digitado. */
+
 let prompt = require("prompt-sync")();
 
 let primeiroNumero = parseInt(prompt("Digite um numero: "));

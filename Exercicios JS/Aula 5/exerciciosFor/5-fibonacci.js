@@ -1,17 +1,17 @@
 let prompt = require("prompt-sync")();
 /* Imprimir os primeiros 10 números da sequência de Fibonacci. */
-let numerosFibonnaci = []
+let numerosFibonacci = []
 for (let i = 0; i < 10; i++) {
     if (i === 0) {
-        numerosFibonnaci.push(0);
+        numerosFibonacci.push(0);
     } else if (i === 1) {
-        numerosFibonnaci.push(1);
+        numerosFibonacci.push(1);
     }
     else {
-        numerosFibonnaci.push(numerosFibonnaci[i - 1] + numerosFibonnaci[i - 2]);
+        numerosFibonacci.push(numerosFibonacci[i - 1] + numerosFibonacci[i - 2]);
     }
 
-    console.log(numerosFibonnaci[i]);
+    console.log(numerosFibonacci[i]);
 }
 
 /* Melhorando o código da sequência de Fibonnaci e transformando em função*/
