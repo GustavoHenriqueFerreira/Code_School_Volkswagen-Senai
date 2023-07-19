@@ -18,7 +18,6 @@ let string = `
 |     0 - Sair                              |  
 |-------------------------------------------|\n`
 
-
 do {
     numeroEscolhido = parseInt(prompt(string));
     switch (numeroEscolhido) {
