@@ -1,4 +1,5 @@
-let prompt = require("prompt-sync")();
+import PromptSync from "prompt-sync";
+const prompt = PromptSync();
 let sair = false;
 let numeroEscolhido;
 let string = `

@@ -10,9 +10,10 @@ IMC de 30.0 a 34.9: Obesidade grau 1
 IMC de 35.0 a 39.9: Obesidade grau 2
 IMC maior ou igual a 40.0: Obesidade grau 3 */
 
-let prompt = require("prompt-sync")();
+import PromptSync from "prompt-sync";
+const prompt = PromptSync();
 
-let peso = parseFloat(prompt("Digite o seu peso: "));
+/* let peso = parseFloat(prompt("Digite o seu peso: "));
 let altura = parseFloat(prompt("Digite a sua altura: "));
 
 let imc = (peso / (altura * altura)).toFixed(2)
@@ -34,4 +35,30 @@ else if (imc >= 35 && imc < 40) {
 }
 else {
     console.log(`O seu imc é ${imc}, você está obesidade grau 3`);
+} */
+
+export function IMC() {
+    let peso = parseFloat(prompt("Digite o seu peso: "));
+    let altura = parseFloat(prompt("Digite a sua altura: "));
+
+    let imc = (peso / (altura * altura)).toFixed(2)
+
+    if (imc < 18.5) {
+        console.log(`O seu imc é ${imc}, você está abaixo do peso`);
+    }
+    else if (imc >= 18.5 && imc < 25) {
+        console.log(`O seu imc é ${imc}, você tem um peso normal`);
+    }
+    else if (imc >= 25 && imc < 30) {
+        console.log(`O seu imc é ${imc}, você está sobrepeso`);
+    }
+    else if (imc >= 30 && imc < 35) {
+        console.log(`O seu imc é ${imc}, você tem obesidade grau 1`);
+    }
+    else if (imc >= 35 && imc < 40) {
+        console.log(`O seu imc é ${imc}, você está obesidade grau 2`);
+    }
+    else {
+        console.log(`O seu imc é ${imc}, você está obesidade grau 3`);
+    }
 }

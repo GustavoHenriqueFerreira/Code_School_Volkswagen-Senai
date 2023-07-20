@@ -2,7 +2,8 @@
 nome de usuário é admin ; e a senha é senha123. Exiba uma mensagem indicando se o login
 foi bem-sucedido ou não. */
 
-let prompt = require("prompt-sync")();
+import PromptSync from "prompt-sync";
+const prompt = PromptSync();
 
 let nome = prompt("Digite seu nome: ");
 var senha = prompt("Digite sua senha: ");

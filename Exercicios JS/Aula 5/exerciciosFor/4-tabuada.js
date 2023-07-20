@@ -1,4 +1,5 @@
-let prompt = require("prompt-sync")();
+import PromptSync from "prompt-sync";
+const prompt = PromptSync();
 
 /* Faça um programa que imprima na tela a tabuada de um número
 qualquer escolhido pelo usuário até o 10. */
@@ -8,11 +9,10 @@ for (let i = 1; i <= 10; i++) {
     console.log(valorTabuada); 
 } */
 
-let numeroTabuada = parseInt(prompt("Digite um número para listar sua tabuada: "));
-function tabuada(numeroEscolhido) {
+export function tabuada() {
+    let numeroTabuada = parseInt(prompt("Digite um número para listar sua tabuada: "));
     for (let i = 1; i <= 10; i++) {
-        let valorTabuada = numeroEscolhido * i;
+        let valorTabuada = numeroTabuada * i;
         console.log(valorTabuada);
     }
 }
-tabuada(numeroTabuada);

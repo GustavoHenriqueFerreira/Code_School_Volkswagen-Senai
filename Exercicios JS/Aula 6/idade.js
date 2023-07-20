@@ -6,6 +6,7 @@ export function verificarIdade() {
         nome: "",
         idade: 0,
     }
+
     pessoa.idade = parseInt(prompt("Digite sua idade: "));
     pessoa.nome = (prompt("Digite seu nome: "));
     while (pessoa.idade < 18) {

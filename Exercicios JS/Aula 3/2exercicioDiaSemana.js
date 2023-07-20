@@ -2,8 +2,9 @@
 semana e exibe o nome correspondente a esse dia. Considere que 1 representa segunda-feira,
 2 representa terça-feira e assim por diante. */
 
-let prompt = require("prompt-sync")();
-let numero = parseInt(prompt("Digite um número: "));
+import PromptSync from "prompt-sync";
+const prompt = PromptSync();
+/* let numero = parseInt(prompt("Digite um número: "));
 
 let diasSemana = {
     1: "Segunda",
@@ -15,4 +16,20 @@ let diasSemana = {
     7: "Domingo",
 }
 
-console.log(`O dia é ${diasSemana[numero]}`);
+console.log(`O dia é ${diasSemana[numero]}`); */
+
+export function diaSemana() {
+    let numero = parseInt(prompt("Digite um número: "));
+
+    let diasSemana = {
+        1: "Segunda",
+        2: "Terca",
+        3: "Quarta",
+        4: "Quinta",
+        5: "Sexta",
+        6: "Sabado",
+        7: "Domingo",
+    }
+
+    console.log(`O dia é ${diasSemana[numero]}`);
+}

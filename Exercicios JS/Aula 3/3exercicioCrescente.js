@@ -2,7 +2,8 @@
 crescente. Exibindo uma mensagem indicando se os números estão em ordem crescente ou
 não. */
 
-let prompt = require("prompt-sync")();
+import PromptSync from "prompt-sync";
+const prompt = PromptSync();
 let primeroNumero = parseInt(prompt("Digite um número: "));
 let segundoNumero = parseInt(prompt("Digite outro número: "));
 let terceiroNumero = parseInt(prompt("Digite outro número: "));

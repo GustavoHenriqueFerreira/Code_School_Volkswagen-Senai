@@ -1,4 +1,5 @@
-let prompt = require("prompt-sync")();
+import PromptSync from "prompt-sync";
+const prompt = PromptSync();
 
 /* Imprimir números pares de 0 a 20 utilizando o loop while */
 /* let contador = 0
@@ -9,7 +10,7 @@ while (contador <= 20) {
     contador++;
 } */
 
-function imprimirNumerosWhile(params) {
+export function imprimirNumerosWhile(params) {
     let contador = 0
     while (contador <= 20) {
         if (contador % 2 == 0) {
@@ -18,5 +19,3 @@ function imprimirNumerosWhile(params) {
         contador++;
     }
 }
-
-imprimirNumerosWhile()

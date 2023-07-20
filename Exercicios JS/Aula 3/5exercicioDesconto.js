@@ -6,7 +6,8 @@ Valor total da compra de R$ 100,01 a R$ 200,00: desconto de 10%.
 Valor total da compra acima de R$ 200,00: desconto de 20%.
 Exiba o valor final da compra com o desconto aplicado. */
 
-let prompt = require("prompt-sync")();
+import PromptSync from "prompt-sync";
+const prompt = PromptSync();
 let valorCompra = parseInt(prompt("Digite o valor da compra: "));
 let valorDescontado;
 
