@@ -1,0 +1,11 @@
+{
+  "type": "module",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.3",
+    "@types/prompt-sync": "^4.2.0"
+  },
+  "build": "tsc -p tsconfig.json"
+}
