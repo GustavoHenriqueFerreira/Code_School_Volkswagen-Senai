@@ -8,7 +8,7 @@ import fibonacci from "../Aula 5/exerciciosFor/5-fibonacci.js";
 import verificarIdade from "./idade.js";
 import diaSemana from "../Aula 3/2exercicioDiaSemana.js";
 import PA from "../Aula 5/exerciciosWhile/7-soma_de_intervalos.js";
-import contagemRegressiva from "../Aula 5/exerciciosWhile/9-contagem_recessiva.js";
+import contagemRegressiva from "../Aula 5/exerciciosWhile/9-contagem_regressiva.js/index.js";
 import acertarNumero from "../Aula 5/exerciciosWhile/10-diferente_de_zero.js";
 import IMC from "../Aula 3/6exercicioIMC.js";
 

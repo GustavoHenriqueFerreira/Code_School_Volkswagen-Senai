@@ -11,9 +11,9 @@ while (contador <= 100) {
 console.log(soma); */
 
 /* Soma de um intervalo de números, famosa soma de PA. */
-export default function PA() {
-    let primeiroTermo = parseInt(prompt("Primeiro número do intervalo somado: "));
-    let ultimoTermo = parseInt(prompt("Último número do intervalo somado: "));
+let primeiroTermo = parseInt(prompt("Primeiro número do intervalo somado: "));
+let ultimoTermo = parseInt(prompt("Último número do intervalo somado: "));
+export default function PA(primeiroTermo, ultimoTermo) {
     let contador = primeiroTermo;
     let soma = 0;
     while (contador <= ultimoTermo) {

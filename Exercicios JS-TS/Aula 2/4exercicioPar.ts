@@ -4,8 +4,8 @@ se este número é par ou ímpar. */
 import PromptSync from "prompt-sync";
 const prompt = PromptSync();
 
-let numero = parseInt(prompt("Digite um numero: "));
-function parOuImpar(numero) {
+let numero: number = parseInt(prompt("Digite um numero: "));
+function parOuImpar(numero: number) {
     if (numero%2 === 0) {
         console.log("O numero é par!");
     } else {

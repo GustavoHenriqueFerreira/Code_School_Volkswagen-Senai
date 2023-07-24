@@ -7,9 +7,9 @@ import tabuada from "../Aula 5/exerciciosFor/4-tabuada.ts";
 import fibonacci from "../Aula 5/exerciciosFor/5-fibonacci.ts";
 import verificarIdade from "./idade.ts";
 import diaSemana from "../Aula 3/2exercicioDiaSemana.ts";
-import PA from "../Aula 5/exerciciosWhile/7-soma_de_intervalos.js";
-import contagemRegressiva from "../Aula 5/exerciciosWhile/9-contagem_recessiva.js";
-import acertarNumero from "../Aula 5/exerciciosWhile/10-diferente_de_zero.js";
+import PA from "../Aula 5/exerciciosWhile/7-soma_de_intervalos.ts";
+import contagemRegressiva from "../Aula 5/exerciciosWhile/9-contagem_regressiva.ts";
+import acertarNumero from "../Aula 5/exerciciosWhile/10-diferente_de_zero.ts";
 import IMC from "../Aula 3/6exercicioIMC.ts";
 
 function menu() {
@@ -68,7 +68,9 @@ function menu() {
                 diaSemana(numero);
                 break;
             case 7:
-                PA();
+                let primeiroTermo: number = parseInt(prompt("Primeiro número do intervalo somado: "));
+                let ultimoTermo: number = parseInt(prompt("Último número do intervalo somado: "));
+                PA(primeiroTermo, ultimoTermo);
                 break;
             case 8:
                 let idade: number = parseInt(prompt("Digite sua idade: "));
@@ -76,10 +78,12 @@ function menu() {
                 verificarIdade(idade, nome);
                 break;
             case 9:
-                contagemRegressiva();
+                let numeroRegressivo: number = parseInt(prompt("Digite um número: "));
+                contagemRegressiva(numeroRegressivo);
                 break;
             case 10:
-                acertarNumero();
+                let numeroEscolhido: number = parseInt(prompt("Digite um número: "));
+                acertarNumero(numeroEscolhido);
                 break;
             case 11:
                 let peso: number = parseFloat(prompt("Digite o seu peso: "));

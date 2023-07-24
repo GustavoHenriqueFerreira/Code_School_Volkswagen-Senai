@@ -1,4 +1,5 @@
-let prompt = require("prompt-sync")();
+import PromptSync from "prompt-sync";
+const prompt = PromptSync();
 
 //Somar números
 /* let primeiro_num = parseInt(prompt("Digite um numero: "));

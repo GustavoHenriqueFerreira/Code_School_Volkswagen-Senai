@@ -1,8 +1,5 @@
 import PromptSync from "prompt-sync";
 const prompt = PromptSync();
-let primeroNumero: number = parseInt(prompt("Digite um número: "));
-let segundoNumero: number = parseInt(prompt("Digite outro número: "));
-let terceiroNumero: number = parseInt(prompt("Digite outro número: "));
 
 function ordemCrecesnte(numero1: number, numero2: number, numero3: number) {
     if (numero1 <= numero2 && numero2 <= numero3) {

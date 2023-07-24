@@ -1,7 +1,6 @@
 import PromptSync from "prompt-sync";
 const prompt = PromptSync();
 
-let valorCompra = parseInt(prompt("Digite o valor da compra: "));
 function desconto(valorCompra: number) {
     let valorDescontado : number = 0;
     if (valorCompra <= 100) {

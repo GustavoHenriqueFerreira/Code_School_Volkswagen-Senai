@@ -4,10 +4,10 @@ número digitado. */
 import PromptSync from "prompt-sync";
 const prompt = PromptSync();
 
-let primeiroNumero = parseInt(prompt("Digite um numero: "));
-let segundoNumero = parseInt(prompt("Digite um numero: "));
+let primeiroNumero: number = parseInt(prompt("Digite um numero: "));
+let segundoNumero: number = parseInt(prompt("Digite um numero: "));
 
-function numeroMaior(primeiroNumero, segundoNumero) {
+function numeroMaior(primeiroNumero: number, segundoNumero: number) {
     if (primeiroNumero > segundoNumero) {
         console.log(`${primeiroNumero} é maior que ${segundoNumero}`);
     } else if(primeiroNumero === segundoNumero){

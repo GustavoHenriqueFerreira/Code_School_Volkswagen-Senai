@@ -1,6 +1,5 @@
 import PromptSync from "prompt-sync";
 const prompt = PromptSync();
-let limiteFibonacci: number = parseInt(prompt("Digite o limite de números listados da sequência de Fibonacci: "));
 export default function fibonacci(limiteFibonacci: number) {
     console.log(0)
     console.log(1)

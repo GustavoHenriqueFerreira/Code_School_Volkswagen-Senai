@@ -11,8 +11,7 @@ while (idade < 18) {
 }
 console.log("Você já é maior de idade, chegou o momento de paga boleto!"); */
 
-export default function verificarIdade() {
-    let idade = parseInt(prompt("Digite sua idade: "));
+export default function verificarIdade(idade) {
     while (idade < 18) {
         console.log("Você é menor de idade ainda, vai come terra!");
         idade = parseInt(prompt("Digite sua idade novamente: "));

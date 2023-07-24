@@ -6,13 +6,13 @@ desse funcionário. */
 import PromptSync from "prompt-sync";
 const prompt = PromptSync();
 
-let nome = prompt("Digite seu nome: ");
-let cargo = prompt("Digite seu cargo: ");
-var salario = parseInt(prompt("Digite seu salário: "));
+let nome: string = prompt("Digite seu nome: ");
+let cargo: string = prompt("Digite seu cargo: ");
+let salario: number = parseInt(prompt("Digite seu salário: "));
 
-function salario1000(nome, cargo, salario) {
+function salario1000(nome: string, cargo: string, salario: number) {
     if(salario < 1000){
-        salario = parseInt(salario * 1.1);
+        salario = (salario * 1.1);
     }
     
     return console.log(`Olá ${nome}, ${cargo}! seu salário é ${salario}`);
